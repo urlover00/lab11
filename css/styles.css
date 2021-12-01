@@ -243,7 +243,7 @@ img {
 position: absolute;
 width: 100px;
 height: 30px;
-left: 100px;
+left: 10px;
 top: 48px;
 font-family: Poppins;
 font-style: normal;
@@ -256,7 +256,7 @@ color: #000000;
 position: absolute;
 width: 158px;
 height: 24px;
-left: 250px;
+left: 150px;
 top: 145px;
 font-family: Poppins;
 font-style: normal;
@@ -269,7 +269,7 @@ color: #000000;
 position: relative;
 width: 429px;
 height: 59px;
-left: 100px;
+left: 10px;
 top: 193px;
 background: #F8EDDD;
 border-radius: 33px;
@@ -298,7 +298,7 @@ background-color: transparent;
 position: absolute;
 width: 454px;
 height: 49px;
-left: 100px;
+left: 10px;
 top: 304px;
 
 font-family: Poppins;
@@ -314,7 +314,7 @@ color: #5B5B5B;
 position: relative;
 width: 150px;
 height: 24px;
-left: 100px;
+left: 10px;
 top: 337px;
 margin-top: 10px;
 
@@ -329,7 +329,7 @@ color: #000000;
 position: relative;
 width: 435px;
 height: 54px;
-left: 100px;
+left: 10px;
 top: 340px;
 
 background: #FFFFFF;
@@ -352,12 +352,12 @@ input[type="text"] {
 position: absolute;
 width: 20px;
 height: 20px;
-left: 100px;
+left: 10px;
 top: 547px;
 }
 .login__check {
 position: absolute;
-left: 100px;
+left: 10px;
 top: 630px;
 
 font-family: Poppins;
@@ -378,7 +378,7 @@ input#check {
 position: absolute;
 width: 150px;
 height: 18px;
-left: 300px;
+left: 200px;
 top: 635px;
 
 font-family: Poppins;
@@ -394,7 +394,7 @@ color: #000000;
 	position: absolute;
 width: 232px;
 height: 49px;
-left: 300px;
+left: 200px;
 top: 707px;
 
 background: #9E896A;
