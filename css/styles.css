@@ -1,0 +1,411 @@
+body {
+box-sizing: border-box;
+}
+img {
+	position: absolute;
+	width: 737px;
+	height: 743px;
+	left: 41px;
+	top: 38px;
+	border-radius: 29px;
+}
+.opacity {
+	position: absolute;
+	width: 737px;
+	height: 743px;
+	left: 41px;
+	top: 38px;
+	border-radius: 29px;
+	background-color: rgb(151, 118, 68, 0.4);
+}
+.mainbox__textOnPic p:first-of-type {
+position: absolute;
+width: 600px;
+height: 56px;
+left: 110px;
+top: 630px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 37px;
+line-height: 55px;
+color: white;
+}
+.mainbox__textOnPic p:last-of-type {
+position: absolute;
+width: 600px;
+height: 56px;
+left: 110px;
+top: 700px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 55px;
+color: white;
+}
+.mainbox__logo {
+position: absolute;
+width: 100px;
+height: 30px;
+left: 1289px;
+top: 48px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+}
+.mainbox__welcome {
+position: absolute;
+width: 158px;
+height: 24px;
+left: 1028px;
+top: 145px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+}
+.mainbox__switch {
+position: relative;
+width: 329px;
+height: 59px;
+left: 942px;
+top: 193px;
+background: #F8EDDD;
+border-radius: 33px;
+}
+.mainbox__button {
+width: 146px;
+height: 40px;
+top: 0.5vh;
+border-radius: 33px;
+border: none;
+margin-top: 10px;
+margin-left: 11px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+background-color: transparent;
+}
+.mainbox__button:first-of-type:active {
+}
+.mainbox__button:focus {
+	background: #9E896A;
+	color: white;
+}
+.mainbox__text {
+position: absolute;
+width: 454px;
+height: 49px;
+left: 889px;
+top: 304px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+color: #5B5B5B;
+}
+
+.mainbox__req {
+position: relative;
+width: 150px;
+height: 24px;
+left: 889px;
+top: 337px;
+margin-top: 10px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+}
+.mainbox__input {
+position: relative;
+width: 435px;
+height: 54px;
+left: 889px;
+top: 340px;
+
+background: #FFFFFF;
+border: 1px solid #9E896A;
+box-sizing: border-box;
+border-radius: 40px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 22px;
+color: #ACACAC;
+}
+input[type="text"] {
+	padding-left: 15px;
+}
+
+.invisible {
+position: absolute;
+width: 20px;
+height: 20px;
+left: 1290px;
+top: 547px;
+}
+.login__check {
+position: absolute;
+left: 889px;
+top: 630px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+}
+
+input#check {
+	width: 15px;
+	height: 15px;
+}
+
+.login__forgot {
+position: absolute;
+width: 150px;
+height: 18px;
+left: 1213px;
+top: 635px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+}
+
+.mainbox__submit {
+	position: absolute;
+width: 232px;
+height: 49px;
+left: 1092px;
+top: 707px;
+
+background: #9E896A;
+border-radius: 36px;
+border: none;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
+.mainbox__submit:active {
+	color: black;
+	background: #F8EDDD; 
+}
+.reg .invisible {
+	top: 635px;
+}
+.reg {
+	display: none;
+}
+
+
+@media only screen and (max-width: 800px) {
+img {
+	display: none;
+}
+.opacity {
+	display: none;
+}
+.mainbox__textOnPic {
+	display: none;
+}
+.mainbox__logo {
+position: absolute;
+width: 100px;
+height: 30px;
+left: 100px;
+top: 48px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+}
+.mainbox__welcome {
+position: absolute;
+width: 158px;
+height: 24px;
+left: 250px;
+top: 145px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+}
+.mainbox__switch {
+position: relative;
+width: 429px;
+height: 59px;
+left: 100px;
+top: 193px;
+background: #F8EDDD;
+border-radius: 33px;
+}
+.mainbox__button {
+width: 196px;
+height: 40px;
+top: 0.5vh;
+border-radius: 33px;
+border: none;
+margin-top: 10px;
+margin-left: 11px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+background-color: transparent;
+}
+
+.mainbox__button:focus {
+	background: #9E896A;
+	color: white;
+}
+.mainbox__text {
+position: absolute;
+width: 454px;
+height: 49px;
+left: 100px;
+top: 304px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+color: #5B5B5B;
+}
+
+.mainbox__req {
+position: relative;
+width: 150px;
+height: 24px;
+left: 100px;
+top: 337px;
+margin-top: 10px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+}
+.mainbox__input {
+position: relative;
+width: 435px;
+height: 54px;
+left: 100px;
+top: 340px;
+
+background: #FFFFFF;
+border: 1px solid #9E896A;
+box-sizing: border-box;
+border-radius: 40px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 22px;
+color: #ACACAC;
+}
+input[type="text"] {
+	padding-left: 15px;
+}
+
+.invisible {
+position: absolute;
+width: 20px;
+height: 20px;
+left: 100px;
+top: 547px;
+}
+.login__check {
+position: absolute;
+left: 100px;
+top: 630px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+}
+
+input#check {
+	width: 15px;
+	height: 15px;
+}
+
+.login__forgot {
+position: absolute;
+width: 150px;
+height: 18px;
+left: 300px;
+top: 635px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+}
+
+.mainbox__submit {
+	position: absolute;
+width: 232px;
+height: 49px;
+left: 300px;
+top: 707px;
+
+background: #9E896A;
+border-radius: 36px;
+border: none;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
